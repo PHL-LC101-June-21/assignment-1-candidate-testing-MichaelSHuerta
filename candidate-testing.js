@@ -15,8 +15,8 @@ let candidateAnswers = [];
 
 function askForName() {
   // TODO 1.1b: Ask for candidate's name //
-  candidateName = input.question("enter name:");
-  console.log(" Hello " + candidateName )
+  candidateName = input.question("Enter name:");
+ 
 } 
 
 function askQuestion() {
@@ -80,6 +80,7 @@ if (candidateAnswers[i] === correctAnswers[i]){
 
 function runProgram() {
   askForName();
+  console.log(" Candidate Name: " + candidateName )
   // TODO 1.1c: Ask for candidate's name //
   
   askQuestion();
